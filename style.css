@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  text-align: center;
+
+  background-image: url(https://phonoteka.org/uploads/posts/2022-01/1643640318_81-phonoteka-org-p-temnii-matovii-fon-87.jpg);
+}
+
+.mystic {
+  margin-top: 25px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px 0 100px 0;
+}
+
+h3 {
+  margin-top: 100px;
+  font-style: italic;
+  font-family: 'Courier';
+  color: burlywood;
+}
+
+p {
+  color: lemonchiffon;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  margin: 30px 0 0 0;
+  padding: 0 0 0 30px;
+}
+.number-input {
+  background-color: black;
+  color: lemonchiffon;
+}
+
+.clk-btn {
+  background-color: black;
+  color: lemonchiffon;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}
