@@ -3,6 +3,26 @@
 // let test1 = 'Мое прекрасное предсказание';
 // document.write(test1);
 
+function greetings() {
+  let date = new Date();
+  let hours = date.getHours();
+  console.log(typeof hours);
+  let timesOfDay;
+  if (hours >= 18 && hours <= 23) {
+    timesOfDay = 'Доброго вечера';
+  } else if (hours >= 12 && hours <= 17) {
+    timesOfDay = 'Доброго дня';
+  } else if (hours >= 6 && hours <= 11) {
+    timesOfDay = 'Доброго утра';
+  } else {
+    timesOfDay = 'Доброй ночи';
+  }
+  return `${timesOfDay}, странник!`;
+}
+let sayHello = greetings();
+console.log(sayHello);
+document.querySelector('.greeting-stranger').textContent = sayHello;
+
 //Простой рандомайзер чисел от 0 до 10
 let numRandomizer10 = function () {
   num3 = Math.trunc(Math.random() * 11);
